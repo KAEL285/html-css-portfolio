@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precious</title>
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    <span>Welcome, Client!</span>
+                </div>
+                <div class="links">
+                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" href="#home" class="nav-link active">Home</a>
+                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200" href="#about" class="nav-link">About</a>
+                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="3100" href="#skills" class="nav-link">Skills</a>
+                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" href="#services" class="nav-link">Services</a>
+                    <a data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" href="#contact" class="nav-link">Contact</a>
+                </div>
+                <i class="fa-solid fa-bars hamburg" onclick="toggleMenu()"></i>
+            </div>
+            <div class="dropdown" id="dropdown">
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="toggleMenu()"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+<!-- home -->
+     <main>
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="1500">
+                <img src="main.jpg" alt="Profile Picture">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hi, I'm <span>Precious</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    I'm a <span class="typewriter-text">Script Writer</span>
+                </div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="900">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum officiis debitis soluta eum aspernatur sunt aliquam modi expedita fuga corrupti molestias tempore eligendi pariatur nostrum, nobis quia! Id, eum molestiae?</p>
+                <div class="social-links">
+                    <a href="https://www.upwork.com/freelancers/~01330dc6ca8e05299d?mp_source=share" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                        <i class="fa-brands fa-upwork"></i>
+                    </a>
+                    <a href="https://www.facebook.com/missmaampres" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/presyuwus/?igsh=MnF5OWUzYmttdTYw" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.onlinejobs.ph/jobseekers/info/3801112" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                        <img src="onlinejob.png" alt="OnlineJobs.ph Icon" width="10px" height="10px" />
+                    </a>
+                    <a href="https://www.raket.ph/carinopres00" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                        <img src="raket.png" alt="raket.ph Icon" width="5px" height="5px" />
+                    </a>
+                </div>
+                
+                <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">Hire me</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="content">
+            <div class="title"><span data-aos="fade-up" data-aos-duration="1500">About Me</span></div>
+            <div class="about-details">
+                <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+                    <img src="main.jpg" alt="About Image">
+                </div>
+                <div class="right">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Writing is my passion</div>
+                    <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias veniam...</p>
+                    <button data-aos="zoom-in-right" data-aos-duration="1500" data-aos-delay="400">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- skills -->
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span data-aos="fade-up" data-aos-duration="1200">My skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+                        Skills Reflects Our Knowledge
+                    </div>
+                    <p data aos="fade-right" data-aos-duration="1200" data-aos-delay="400">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero natus, at dolore incidunt dolorem mollitia laboriosam eligendi fuga vitae ad beatae, accusantium consequatur sequi ipsum iusto ipsam, quia eos quam.</p>
+                    <div class="experience" data aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+                     <div class="num">1</div>
+                     <div class="exp">
+                        Years Of <br />
+                        Experience
+                        </div>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <div class="topic" data aos="fade-right" data-aos-duration="1200" data-aos-delay="150">Effective communication <br />
+                             (verbal and non-verbal)</div>
+                        <div class="per" data aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">100%</div>
+                    </div>
+                    <div class="boxes">
+                        <div class="box">
+                            <div class="topic"data aos="fade-left" data-aos-duration="1200" data-aos-delay="150">Customer Service</div>
+                            <div class="per" data aos="zoom-in" data-aos-duration="1200" data-aos-delay="300">100%</div>
+                        </div>
+                        <div class="boxes">
+                            <div class="box">
+                                <div class="topic" data aos="fade-right" data-aos-duration="1200" data-aos-delay="450">Website maintenance</div>
+                                <div class="per" data aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">90%</div>
+                            </div>
+                            <div class="boxes">
+                                <div class="box">
+                                    <div class="topic" data aos="fade-left" data-aos-duration="1200" data-aos-delay="450">Content Creation</div>
+                                    <div class="per" data aos="zoom-in" data-aos-duration="1200" data-aos-delay="600">100%</div>
+                     </div>
+                                
+                </div>
+            </div>
+        </div>
+     </section>
+<!-- services -->
+     <section class="services" id="services">
+        <div class="content">
+            <div class="title" data aos="fade-up" data-aos-duration="1200"><span >My Services</span></div>
+            <div class="boxes">
+                <div class="box" data aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <div class="icon">
+                        <i class="fas fa-pen"></i>
+                    </div>
+                    <div class="topic">Content Writing</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius velit iusto laudantium, ipsam quisquam expedita doloribus, recusandae quo eaque, quos asperiores eligendi hic provident debitis officia exercitationem veniam obcaecati.</p>
+                </div>
+                <div class="box" data aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="topic">Email Management</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perferendis iusto labore alias, esse fuga aliquam enim soluta accusamus corporis quas vero rem maiores. Sed accusamus qui minima quos iste!</p>
+            </div>
+            <div class="box" data aos="fade-up" data-aos-duration="1500" data-aos-delay="600">
+                <div class="icon">
+                    <i class="fas fa-calendar"></i>
+                </div>
+                <div class="topic">Calendar Management</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id omnis libero quia rem aperiam, mollitia, hic ab praesentium officia quo officiis nihil quod adipisci et sint cupiditate deserunt animi voluptatem?</p>
+        </div>
+        <div class="box" data aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+            <div class="icon">
+                <i class="fas fa-globe"></i>
+            </div>
+            <div class="topic">Data Entry</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi non corporis laboriosam aliquam aut tenetur mollitia delectus, harum doloribus. Perspiciatis ducimus dolorum nulla molestias, esse beatae voluptas. Delectus, qui laboriosam.</p>
+            </div>
+            <div class="box" data aos="fade-up" data-aos-duration="1500" data-aos-delay="1000">
+                <div class="icon">
+                    <i class="fas fa-list-alt"></i>
+                </div>
+                <div class="topic">Travel Planning</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque neque ipsum repellat nobis! Placeat saepe ipsam incidunt reiciendis ab nulla vero sunt omnis laborum, qui natus voluptas, quidem, aliquam molestias!</p>
+                </div>
+                <div class="box" data aos="fade-up" data-aos-duration="1500" data-aos-delay="1200">
+                    <div class="icon">
+                        <i class="fas fa-map-marked"></i>
+                    </div>
+                    <div class="topic">Conducting Online Research For Various Request</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel veritatis dolore, fuga quaerat odio tempore magni eveniet laudantium voluptatem corrupti cupiditate non laboriosam distinctio modi itaque, eius tenetur libero autem.</p>
+                    </div>
+                    <div class="box" data aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                        <div class="icon">
+                            <i class="fas fa-envelope-open"></i>
+                        </div>
+                        <div class="topic">Responding To Inquires Through Email Or Invoice Message</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae in, cumque corrupti ab ducimus facilis. Rem recusandae quia ullam molestias possimus voluptatibus ea aliquam eius voluptatem expedita, officia, et quo.</p>
+                        </div>
+                
+                    </div>
+             </div>
+     </section>
+<!-- contact -->
+     <section id="contact" class="contact">
+        <div class="content">
+            <div class="title" data aos="fade-up" data-aos-duration="1500"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic" data aos="fade-right" data-aos-duration="1500" data-aos-delay="200">Have Any Project?</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, explicabo similique repellat tenetur ad asperiores quidem. Delectus, nisi ea facilis, modi facere adipisci fugit placeat eos saepe ab nostrum nesciunt!</p>
+                <button onclick="location.href='mailto:carinopres00@gmail.com'" data aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">Let's Chat</button>
+            </div>
+        </main>     
+            
+
+
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Kael</a> &#169; 2024 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({ offset: 0 });</script>
+    <script>
+        function toggleMenu() {
+            const dropdown = document.getElementById('dropdown');
+            dropdown.classList.toggle('active'); // Toggle the 'active' class
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
